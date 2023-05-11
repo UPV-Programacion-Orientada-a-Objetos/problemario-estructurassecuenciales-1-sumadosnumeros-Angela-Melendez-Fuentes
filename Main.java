@@ -2,10 +2,10 @@ class Main {
 
     public static void main(String[] args) {
     
-    	int a = Integer.parseInt(args[0]); //Tomar un string y hacerlo int, (int es variable primitiva, integer es la clase que tiene mètodos) 
+    	int a = Integer.parseInt(args[0]); 
     	int b = Integer.parseInt(args[1]);
     
-    	SumaDosNumeros obj = new SumaDosNumeros(); //separar el espacio de memoria 
+    	SumaDosNumeros obj = new SumaDosNumeros(); 
     	
     	System.out.println(obj.suma(a, b));
     }
